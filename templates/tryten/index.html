@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>django project</title>
+	{% load static %}
+</head>
+
+<body ng-app="tryten" ng-controller="trytenCntrl">
+	<p>django with angular</p>
+	<form ng-submit="todoAdd()">
+		<input type="text" ng-model="todoInput" placeholder="Add a new  todo">
+		<button type="submit">Submit</button>
+	</form>
+	<div ng-repeat="todo in todoList">
+		<span ng-bind="todo.todoText"></span><button class="btn btn-primary" ng-click="remove(todo.id)">delete</button>
+	</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/labjs/2.0.3/LAB.min.js"></script>
+<script>
+	$LAB.setOptions({
+	  AlwaysPreserveOrder: true
+	});
+	$LAB
+	  .queueScript("https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")	
+	  .queueScript("https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js")
+	  .queueWait()
+	  .queueScript("{% static 'js/tryten.js' %}")
+	  .queueWait()
+	  .runQueue();		  
+</script>
+
+</body>
+</html>

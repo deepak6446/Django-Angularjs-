@@ -1,0 +1,184 @@
+ 1318  export DJANGO_SETTINGS_MODULE=todo.settings
+ 1319  django-admin runserver
+ 1320  ls
+ 1321  cd todo/
+ 1322  ls
+ 1323  bin/elasticsearch
+ 1324  ssh arya_04@192.168.85.2
+ 1325  locate todo
+ 1326  ls
+ 1327  cd todo/
+ 1328  pip list
+ 1329  ls
+ 1330  cd requirements/
+ 1331  vim base.txt 
+ 1332  cd ..
+ 1333  django-admin run server
+ 1334  django-admin runserver
+ 1335  export DJANGO_SETTINGS_MODULE=todo.settings
+ 1336  django-admin runserver
+ 1337  ls todo/
+ 1338  ls
+ 1339  ls tp
+ 1340  ls todo/
+ 1341  export DJANGO_SETTINGS_MODULE=todo.settings
+ 1342  ls todo/
+ 1343  vim todo/settings.py 
+ 1344  django-admin runserver
+ 1345  ls todo/
+ 1346  django-admin runserver
+ 1347  export DJANGO_SETTINGS_MODULE=todo.settings.py
+ 1348  django-admin runserver
+ 1349  export DJANGO_SETTINGS_MODULE=todo.settings
+ 1350  django-admin runserver
+ 1351  ls todo/
+ 1352  vim todo/wsgi.py 
+ 1353  pwd
+ 1354  vim todo/wsgi.py 
+ 1355  django-admin runserver
+ 1356  ls
+ 1357  ls todo/
+ 1358  vim todo/settings.py 
+ 1359  vim todo/wsgi.py 
+ 1360  vim todo/__init__.py
+ 1361  vim todo/wsgi.py 
+ 1362  django-admin runserver
+ 1363  vim todo/wsgi.py 
+ 1364  django-admin runserver
+ 1365  vim todo/wsgi.py 
+ 1366  python -m pip install -U pip
+ 1367  cd ..
+ 1368  mv todo django 
+ 1369  ls
+ 1370  cd django/
+ 1371  django-admin runserver
+ 1372  cd .. 
+ 1373  rm -rf django/
+ 1374  ls
+ 1375  django-admin startproject todo
+ 1376  ls
+ 1377  mkdir django1
+ 1378  cd django1/
+ 1379  mkvirtualenv youtube --python=$(which python3.4) -a .
+ 1380  sudo pip install virtualenv
+ 1381  virtualenv todo
+ 1382  ls
+ 1383  pip list
+ 1384  django-admin startproject todo
+ 1385  cd ..
+ 1386  cd  django1/
+ 1387  ls
+ 1388  rm -rf todo/
+ 1389  ls
+ 1390  virtualenv todo1
+ 1391  ls
+ 1392  pip list
+ 1393  django-admin startproject todo1
+ 1394  ls
+ 1395  django-admin startproject todo1
+ 1396  ls
+ 1397  cd todo1/
+ 1398  ls
+ 1399  source bin/activate
+ 1400  pip freeze
+ 1401  ls
+ 1402  pip install Django==1.10
+ 1403  pip freeze
+ 1404  django-admin startproject todo1
+ 1405  ls
+ 1406  django-admin.py startproject todo1
+ 1407  locate settings.py
+ 1408  django-admin.py startproject todo1
+ 1409  export DJANGO_SETTINGS_MODULE=
+ 1410  ls
+ 1411  django-admin.py startproject todo2
+ 1412  django-admin.py startproject todo1
+ 1413  ls
+ 1414  rm -rf todo1
+ 1415  ls
+ 1416  django-admin.py startproject todo1
+ 1417  ls
+ 1418  rm -rf todo2
+ 1419  ls
+ 1420  cd todo1/
+ 1421  pip freeze
+ 1422  mkdir requirnments
+ 1423  pip freeze > requirnments/base.txt
+ 1424  ls
+ 1425  django-admin run server
+ 1426  django-admin runserver
+ 1427  ls
+ 1428  cd todo1/
+ 1429  ls
+ 1430  cd ..
+ 1431  ls
+ 1432  export DJANGO_SETTINGS_MODULE = todo1.settings
+ 1433  export DJANGO_SETTINGS_MODULE=todo1.settings
+ 1434  ls
+ 1435  ls todo1/
+ 1436  django-admin runserver
+ 1437  export DJANGO_SETTINGS_MODULE = 
+ 1438  export DJANGO_SETTINGS_MODULE= 
+ 1439  django-admin runserver
+ 1440  export DJANGO_SETTINGS_MODULE=todo1.settings
+ 1441  django-admin runserver
+ 1442  whereis python
+ 1443  cd ..
+ 1444  django-admin runserver
+ 1445  ls
+ 1446  which django-admin.py
+ 1447  ls
+ 1448  cd bin/
+ 1449  ls
+ 1450  cd ..
+ 1451  ls
+ 1452  cd todo1/bin/
+ 1453  pwd
+ 1454  cd ..
+ 1455  source /home/arya/Downloads/datascience/django1/todo1/bin/activate
+ 1456  django-admin runserver
+ 1457  sudo pip uninstall Django
+ 1458  pip freeze
+ 1459  sudo pip uninstall Django
+ 1460  pip uninstall Django
+ 1461  pip freeze
+ 1462  source ./bin/activate
+ 1463  ls
+ 1464  pip install Django
+ 1465  django-admin runserver
+ 1466  cd ..
+ 1467  ls
+ 1468  cd Downloads/datascience/
+ 1469  ls
+ 1470  rm -rf django1/todo1/
+ 1471  ls
+ 1472  cd django1/
+ 1473  ls
+ 1474* 
+ 1475  virtualenv tryten
+ 1476  cd tryten/
+ 1477  source bin/activate
+ 1478  pip freeze
+ 1479  ls
+ 1480  pip install Django==1.10
+ 1481  django-admin.py startproject tryten
+ 1482  ls
+ 1483  cd tryten/
+ 1484  ls
+ 1485  python manage.py migrate
+ 1486  ls
+ 1487  python manage.py runserver
+ 1520  django-admin runserver
+ 1533  python manage.py runserver
+ 1535  sudo apt install mysql-client-core-5.7
+ 1536  python manage.py runserver
+ 1539  pip install djangorestframework
+ 1541  python manage.py shell
+ 1545  python manage.py runserver
+ 1546  python manage.py makemigrations tryten
+ 1547  python manage.py migrate
+ 1548  python manage.py runserver
+ 1549  python manage.py makemigrations
+ 1550  python manage.py migrate
+ 1551  python manage.py runserver
+ 1552  
